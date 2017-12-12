@@ -6,8 +6,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using static HouseofCat.LibraryCore.FileEnumerators;
 using static HouseofCat.LibraryCore.DirectoryEnumerators;
-using static HouseofCat.LibraryCore.FastDirectoryEnumerator;
-using static HouseofCat.LibraryCore.FastFileInfo;
 using HouseofCat.LibraryCore;
 
 namespace FileSearchBenchmarkCore

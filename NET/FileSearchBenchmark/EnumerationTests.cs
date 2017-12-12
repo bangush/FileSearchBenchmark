@@ -6,8 +6,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using static HouseofCat.Library.FileEnumerators;
 using static HouseofCat.Library.DirectoryEnumerators;
-using static HouseofCat.Library.FastDirectoryEnumerator;
-using static HouseofCat.Library.FastFileInfo;
 using HouseofCat.Library;
 
 namespace FileSearchBenchmark
@@ -164,14 +162,14 @@ namespace FileSearchBenchmark
     {
         public static async Task EnumerateFilesParallelMaxDegreeTestAsync(string rootFolder)
         {
-            await Console.Out.WriteLineAsync($"Enumerate Files w/ Parallel Test Begins.");
+            await Console.Out.WriteLineAsync($"Enumerate Files w/ Parallel Max Degree Test Begins.");
             var seconds = 0.0;
             var limit = 5;
             for (int i = 0; i < limit; i++)
             {
                 seconds += await EnumerateFilesParallelMaxDegreeAsync(rootFolder, i);
             }
-            await Console.Out.WriteLineAsync($"Enumerate Files w/ Parallel Test Complete.\n\tTotal Time: {seconds}s\tAvg. Time: {seconds / limit}s\n");
+            await Console.Out.WriteLineAsync($"Enumerate Files w/ Parallel Max Degree Test Complete.\n\tTotal Time: {seconds}s\tAvg. Time: {seconds / limit}s\n");
         }
 
         private static async Task<double> EnumerateFilesParallelMaxDegreeAsync(string rootFolder, int iteration)
@@ -201,14 +199,14 @@ namespace FileSearchBenchmark
     {
         public static async Task EnumerateFilesParallelMaxDegreeForceTestAsync(string rootFolder)
         {
-            await Console.Out.WriteLineAsync($"Enumerate Files w/ Parallel Test Begins.");
+            await Console.Out.WriteLineAsync($"Enumerate Files w/ Parallel Max Degree (Forced Parallel) Test Begins.");
             var seconds = 0.0;
             var limit = 5;
             for (int i = 0; i < limit; i++)
             {
                 seconds += await EnumerateFilesParallelMaxDegreeForceAsync(rootFolder, i);
             }
-            await Console.Out.WriteLineAsync($"Enumerate Files w/ Parallel Test Complete.\n\tTotal Time: {seconds}s\tAvg. Time: {seconds / limit}s\n");
+            await Console.Out.WriteLineAsync($"Enumerate Files w/ Parallel Max Degree (Forced Parallel) Test Complete.\n\tTotal Time: {seconds}s\tAvg. Time: {seconds / limit}s\n");
         }
 
         private static async Task<double> EnumerateFilesParallelMaxDegreeForceAsync(string rootFolder, int iteration)
