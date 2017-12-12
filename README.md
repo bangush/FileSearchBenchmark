@@ -24,8 +24,7 @@ NetStandard 2.0.1. The Library code includes sources/citations. I use two 3rd pa
 be pretty decent implementations using the WIN32 API back in the day. The main projects are dependent on the Library and 
 LibraryCore projects being built first. Library and LibraryCore are virtually identical. Queues in NetCore/NetStandard 
 have a TryDequeue which I utilized. The reason why there are two full Library Projects identically maintained is for 
-your convenience. The citations/sources are included in the source for code borrowed. Issuing a standard MIT license
-so anyone can use anything I have written.
+your convenience. The citations/sources are included in the source for code borrowed.
 
 For a more detailed and technical explanation on the other methods please visit my website (https://houseofcat.io)  
  * Navigate to Software
