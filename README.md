@@ -84,9 +84,9 @@ EnumerateFilesFastv1TestAsync is prone to StackOverflowException.
 * Execute following command `dotnet publish -c Release -r win10-x64`  
 
 #### NuGet / Dependencies
-AsyncEnumerator by Serge Semenov (tyrotoxin).
-https://github.com/tyrotoxin/AsyncEnumerable
-https://www.nuget.org/packages/AsyncEnumerator/
+AsyncEnumerator by Serge Semenov (tyrotoxin).  
+https://github.com/tyrotoxin/AsyncEnumerable  
+https://www.nuget.org/packages/AsyncEnumerator/  
 
 #### Consistently Predictable Results
 Roslyn is consistently faster, although the results can be sporadic.  
@@ -95,7 +95,6 @@ For Best Results
  * Run as Administrator (Visual Studio 2017)
 
 #### Results
-Summary
 
 Test Averages                                            | 4.7.1    |  NetCore |  Imp. % |
 --- | --- | --- | --- |
