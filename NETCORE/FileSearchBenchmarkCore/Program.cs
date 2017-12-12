@@ -16,7 +16,7 @@ using System.Diagnostics;
 
 namespace FileSearchBenchmarkCore
 {
-    public class FileBenchmark
+    public class FileSearchBenchmarkCore
     {
         public static void Main(string[] args)
         {

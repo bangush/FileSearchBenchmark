@@ -16,7 +16,7 @@ using static FileSearchBenchmark.EnumerateFilesFastv2Test;
 
 namespace FileSearchBenchmark
 {
-    public class FileBenchmark
+    public class FileSearchBenchmark
     {
         public static void Main(string[] args)
         {
