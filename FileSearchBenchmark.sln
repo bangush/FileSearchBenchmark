@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSearchBenchmark", "NET\FileSearchBenchmark\FileSearchBenchmark.csproj", "{F564C4A0-2F55-4931-851F-E8173BCB5112}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "NET\Library\Library.csproj", "{B5D3BABE-BDA9-40B9-8495-3D8D46E5DC5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET", "NET", "{3DFCBD6B-F10D-4DD0-A39E-5D15B5624B56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NETCORE", "NETCORE", "{9C8CE828-05A1-4428-8786-8F29C9A690C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSearchBenchmarkCore", "NETCORE\FileSearchBenchmarkCore\FileSearchBenchmarkCore.csproj", "{4ABED11C-B899-4A03-855E-18BAED805F0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryCore", "NETCORE\LibraryCore\LibraryCore.csproj", "{BD7DF800-B000-4FF8-94EB-B131CF6E91F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F564C4A0-2F55-4931-851F-E8173BCB5112}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F564C4A0-2F55-4931-851F-E8173BCB5112}.Debug|x64.ActiveCfg = Debug|x64
+		{F564C4A0-2F55-4931-851F-E8173BCB5112}.Debug|x64.Build.0 = Debug|x64
+		{F564C4A0-2F55-4931-851F-E8173BCB5112}.Debug|x86.ActiveCfg = Debug|x86
+		{F564C4A0-2F55-4931-851F-E8173BCB5112}.Debug|x86.Build.0 = Debug|x86
+		{F564C4A0-2F55-4931-851F-E8173BCB5112}.Release|Any CPU.ActiveCfg = Release|x86
+		{F564C4A0-2F55-4931-851F-E8173BCB5112}.Release|x64.ActiveCfg = Release|x64
+		{F564C4A0-2F55-4931-851F-E8173BCB5112}.Release|x64.Build.0 = Release|x64
+		{F564C4A0-2F55-4931-851F-E8173BCB5112}.Release|x86.ActiveCfg = Release|x86
+		{F564C4A0-2F55-4931-851F-E8173BCB5112}.Release|x86.Build.0 = Release|x86
+		{B5D3BABE-BDA9-40B9-8495-3D8D46E5DC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D3BABE-BDA9-40B9-8495-3D8D46E5DC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D3BABE-BDA9-40B9-8495-3D8D46E5DC5D}.Debug|x64.ActiveCfg = Debug|x64
+		{B5D3BABE-BDA9-40B9-8495-3D8D46E5DC5D}.Debug|x64.Build.0 = Debug|x64
+		{B5D3BABE-BDA9-40B9-8495-3D8D46E5DC5D}.Debug|x86.ActiveCfg = Debug|x86
+		{B5D3BABE-BDA9-40B9-8495-3D8D46E5DC5D}.Debug|x86.Build.0 = Debug|x86
+		{B5D3BABE-BDA9-40B9-8495-3D8D46E5DC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D3BABE-BDA9-40B9-8495-3D8D46E5DC5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D3BABE-BDA9-40B9-8495-3D8D46E5DC5D}.Release|x64.ActiveCfg = Release|x64
+		{B5D3BABE-BDA9-40B9-8495-3D8D46E5DC5D}.Release|x64.Build.0 = Release|x64
+		{B5D3BABE-BDA9-40B9-8495-3D8D46E5DC5D}.Release|x86.ActiveCfg = Release|x86
+		{B5D3BABE-BDA9-40B9-8495-3D8D46E5DC5D}.Release|x86.Build.0 = Release|x86
+		{4ABED11C-B899-4A03-855E-18BAED805F0A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4ABED11C-B899-4A03-855E-18BAED805F0A}.Debug|x64.ActiveCfg = Debug|x64
+		{4ABED11C-B899-4A03-855E-18BAED805F0A}.Debug|x64.Build.0 = Debug|x64
+		{4ABED11C-B899-4A03-855E-18BAED805F0A}.Debug|x86.ActiveCfg = Debug|x86
+		{4ABED11C-B899-4A03-855E-18BAED805F0A}.Debug|x86.Build.0 = Debug|x86
+		{4ABED11C-B899-4A03-855E-18BAED805F0A}.Release|Any CPU.ActiveCfg = Release|x86
+		{4ABED11C-B899-4A03-855E-18BAED805F0A}.Release|x64.ActiveCfg = Release|x64
+		{4ABED11C-B899-4A03-855E-18BAED805F0A}.Release|x64.Build.0 = Release|x64
+		{4ABED11C-B899-4A03-855E-18BAED805F0A}.Release|x86.ActiveCfg = Release|x86
+		{4ABED11C-B899-4A03-855E-18BAED805F0A}.Release|x86.Build.0 = Release|x86
+		{BD7DF800-B000-4FF8-94EB-B131CF6E91F4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{BD7DF800-B000-4FF8-94EB-B131CF6E91F4}.Debug|x64.ActiveCfg = Debug|x64
+		{BD7DF800-B000-4FF8-94EB-B131CF6E91F4}.Debug|x64.Build.0 = Debug|x64
+		{BD7DF800-B000-4FF8-94EB-B131CF6E91F4}.Debug|x86.ActiveCfg = Debug|x86
+		{BD7DF800-B000-4FF8-94EB-B131CF6E91F4}.Debug|x86.Build.0 = Debug|x86
+		{BD7DF800-B000-4FF8-94EB-B131CF6E91F4}.Release|Any CPU.ActiveCfg = Release|x86
+		{BD7DF800-B000-4FF8-94EB-B131CF6E91F4}.Release|x64.ActiveCfg = Release|x64
+		{BD7DF800-B000-4FF8-94EB-B131CF6E91F4}.Release|x64.Build.0 = Release|x64
+		{BD7DF800-B000-4FF8-94EB-B131CF6E91F4}.Release|x86.ActiveCfg = Release|x86
+		{BD7DF800-B000-4FF8-94EB-B131CF6E91F4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F564C4A0-2F55-4931-851F-E8173BCB5112} = {3DFCBD6B-F10D-4DD0-A39E-5D15B5624B56}
+		{B5D3BABE-BDA9-40B9-8495-3D8D46E5DC5D} = {3DFCBD6B-F10D-4DD0-A39E-5D15B5624B56}
+		{4ABED11C-B899-4A03-855E-18BAED805F0A} = {9C8CE828-05A1-4428-8786-8F29C9A690C2}
+		{BD7DF800-B000-4FF8-94EB-B131CF6E91F4} = {9C8CE828-05A1-4428-8786-8F29C9A690C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BB40209-94E2-42F1-8189-BAEF75ADF20A}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://houseofcat.visualstudio.com/
+		SccProjectUniqueName0 = NET\\FileSearchBenchmark\\FileSearchBenchmark.csproj
+		SccProjectTopLevelParentUniqueName0 = FileSearchBenchmark.sln
+		SccProjectName0 = NET/FileSearchBenchmark
+		SccAuxPath0 = https://houseofcat.visualstudio.com
+		SccLocalPath0 = NET\\FileSearchBenchmark
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = NET\\Library\\Library.csproj
+		SccProjectTopLevelParentUniqueName1 = FileSearchBenchmark.sln
+		SccProjectName1 = NET/Library
+		SccAuxPath1 = https://houseofcat.visualstudio.com
+		SccLocalPath1 = NET\\Library
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = NETCORE\\FileSearchBenchmarkCore\\FileSearchBenchmarkCore.csproj
+		SccProjectTopLevelParentUniqueName2 = FileSearchBenchmark.sln
+		SccProjectName2 = NETCORE/FileSearchBenchmarkCore
+		SccAuxPath2 = https://houseofcat.visualstudio.com
+		SccLocalPath2 = NETCORE\\FileSearchBenchmarkCore
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = NETCORE\\LibraryCore\\LibraryCore.csproj
+		SccProjectTopLevelParentUniqueName3 = FileSearchBenchmark.sln
+		SccProjectName3 = NETCORE/LibraryCore
+		SccAuxPath3 = https://houseofcat.visualstudio.com
+		SccLocalPath3 = NETCORE\\LibraryCore
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
