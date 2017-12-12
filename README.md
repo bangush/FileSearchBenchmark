@@ -62,7 +62,7 @@ December 12th, 2017 - Initial Commit
    * public static Task for the Test (calls EnumeratorTask)
    * public static Task for the Enumerator
    * add reference to static class in `FileSearchBenchmark\Program.cs`
-   * add an await for new pulibc static Task in `MainAsync` (`FileSearchBenchmark\Program.cs`.
+   * add an await for new public static Task in `MainAsync` (`FileSearchBenchmark\Program.cs`).
 5. Run Benchmark (Release x64 Configuration)
 
 ### How Do I Add New Enumerators
