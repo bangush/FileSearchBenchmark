@@ -17,6 +17,15 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Windows folders
+bin/
+obj/
+.vs/
+
+# Git & TFS Files
+.gitignore
+.tfignore
+
 # =========================
 # Operating System Files
 # =========================
